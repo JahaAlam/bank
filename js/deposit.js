@@ -33,7 +33,7 @@ deposiTotalElement.innerText = newDepositTotal;
 const balanceTotalElement = document.getElementById('balance-total');
 const previousBalanceTotalString = balanceTotalElement.innerText;
 const previousBalanceTotal = parseFloat(previousBalanceTotalString);
-
+//step-7:
 const newBalanceTotal = previousBalanceTotal + newDepositAmount;
 balanceTotalElement.innerText = newBalanceTotal;
 
